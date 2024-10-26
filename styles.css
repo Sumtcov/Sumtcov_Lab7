@@ -1,0 +1,94 @@
+
+        header {
+            height: 150px; /* Висота хедера */
+            background-color: gray; /* Колір фону */
+            color: white; /* Колір тексту */
+            display: flex;
+            align-items: center; /* Вирівнювання по вертикалі */
+            justify-content: center; /* Вирівнювання по горизонталі */
+            font-size: 24px; /* Розмір тексту */
+        }
+
+        .fold {
+            height: 500px; /* Висота фолда */
+            background-color: #f1760348; /* Світлий колір для фону */
+            display: flex;
+            align-items: center; /* Вирівнювання по вертикалі */
+            justify-content: center; /* Вирівнювання по горизонталі */
+            font-size: 20px; /* Розмір тексту */
+            border-top: 2px solid #ccc; /* Верхня рамка для відокремлення від хедера */
+        }
+        
+        .p1 {
+            background-color: #df4103b6; /* Світлий колір для фону */
+            display: flex;
+            align-items: center; /* Вирівнювання по вертикалі */
+            justify-content: center; /* Вирівнювання по горизонталі */
+            font-weight: normal; /* Розмір тексту */
+    }
+
+    .p2 {
+            background-color: #df03a8b6; /* Світлий колір для фону */
+            height: 100px;
+            display: flex;
+            align-items: center; /* Вирівнювання по вертикалі */
+            justify-content: center; /* Вирівнювання по горизонталі */
+            font-weight: normal; /* Розмір тексту */
+    }
+
+    .image-container {
+            display: flex; /* Розміщення зображень поруч */
+            gap: 10px; /* Відступ між зображеннями */
+            justify-content: center; /* Вирівнювання по центру */
+        }
+
+        .image-container img {
+            width: 515px; /* Ширина зображення */
+            height: 225px; /* Висота зображення */
+            object-fit: cover; /* Обрізка зображення, щоб відповідало розмірам */
+            border: 2px solid #ccc; /* Рамка для зображення */
+        }
+
+        .image-row {
+            display: flex; /* Розміщення зображень в один ряд */
+            gap: 10px; /* Відступ між зображеннями */
+            justify-content: center; /* Центрування ряду зображень */
+        }
+
+        .image-row img {
+            width: 360px; /* Ширина зображення */
+            height: 350px; /* Висота зображення */
+            object-fit: cover; /* Обрізка зображення для відповідності розмірам */
+            border: 2px solid #ccc; /* Рамка для зображення */
+        }
+        
+    .p3{
+        background-color: #df9203e8; /* Світлий колір для фону */
+            height: 100px;
+            display: flex;
+            align-items: center; /* Вирівнювання по вертикалі */
+            justify-content: center; /* Вирівнювання по горизонталі */
+            font-weight: normal; /* Розмір тексту */
+    }
+
+    body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .content {
+            flex: 1; /* Розтягує основний контент, щоб футер завжди був внизу */
+        }
+
+        footer {
+            height: 100px; /* Висота футера */
+            background-color: #333; /* Темний фон для футера */
+            color: white; /* Колір тексту */
+            display: flex;
+            align-items: center; /* Центрування тексту по вертикалі */
+            justify-content: center; /* Центрування тексту по горизонталі */
+            font-size: 16px;
+            padding: 10px;
+        }
